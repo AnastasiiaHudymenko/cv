@@ -115,7 +115,8 @@ h2 {
 }
 
 .summary-title,
-.title-prodject {
+.title-prodject,
+.title-education {
   margin-bottom: 16px;
 }
 
@@ -124,7 +125,8 @@ h2 {
   line-height: 24px;
 }
 
-.list-projects {
+.list-projects,
+.list-education {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -134,4 +136,10 @@ h2 {
 .link-prj {
   color: inherit;
   font-weight: 500;
+}
+
+.item-education {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
