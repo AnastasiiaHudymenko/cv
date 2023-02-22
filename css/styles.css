@@ -16,6 +16,7 @@ body {
 
 .flex-container {
   display: flex;
+  width: 950px;
 }
 
 .side-bar {
@@ -26,7 +27,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 200px;
+  padding-top: 59px;
+  padding-bottom: 50px;
   background-color: #b6d3eda1;
   text-align: center;
   gap: 5px;
@@ -107,11 +109,13 @@ h2 {
 /* ------------------------ */
 .main-content {
   padding: 20px;
+  padding-right: 36px;
 }
 
-.summery,
+.summary,
 .experiense {
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .summary-title,
@@ -142,4 +146,8 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+.rmv-link {
+  text-decoration: underline;
 }
